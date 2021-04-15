@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 // @route GET /dashboard
 router.get('/dashboard', (req, res) => {
     res.render('dashboard', {
-        layout: 'login'
+        
     })
 })
 
