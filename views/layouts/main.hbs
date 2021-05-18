@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/public/css/style.css">
     <title>StoryBooks</title>
 </head>
 
@@ -17,6 +17,13 @@
     <div class="container">
         {{{body}}}
     </div>
+
+    <div>
+        <h1>Popupapi Map</h1>
+        <div id="map"></div>
+        <script src="/main.js"></script>
+        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMkvBscki4sW1JfdE8mBaMJpGoKZS_vZY&callback=initMap"></script>
+    </div> 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.14.1/ckeditor.js"
